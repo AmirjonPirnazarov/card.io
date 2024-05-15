@@ -1,20 +1,3 @@
-@font-face {
-    font-family: 'Muller';
-    src: url('../font/MullerLight.ttf') format('truetype');
-    font-weight: lighter;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Muller';
-    src: url('../font/MullerBold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-body {
-    font-family: 'Muller', sans-serif;
-}
 .mediaViewInfo {
         --web-view-name: iPhone 13, 12 Pro Max – 1;
         --web-view-id: card;
@@ -90,6 +73,18 @@ body {
         font-weight: lighter;
         font-size: 20px;
         color: rgba(222,219,219,1);
+    }
+    #ID992_92_009_09_09 a {
+    color: rgba(222, 219, 219, 1); /* Цвет ссылки */
+    text-decoration: none; /* Убирает подчеркивание ссылки, если нужно */
+    }
+
+    #ID992_92_009_09_09 a:visited {
+        color: rgba(222, 219, 219, 1); /* Цвет посещенной ссылки */
+    }
+
+    #ID992_92_009_09_09 a:hover {
+        color: rgba(255, 255, 255, 1); /* Цвет при наведении на ссылку */
     }
     #pirnazarova988gmailcom {
         left: 92px;
