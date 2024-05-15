@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Muller';
+    src: url('../font/MullerLight.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../font/MullerBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Muller', sans-serif;
+}
 .mediaViewInfo {
         --web-view-name: iPhone 13, 12 Pro Max – 1;
         --web-view-id: card;
