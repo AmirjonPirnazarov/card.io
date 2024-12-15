@@ -14,526 +14,164 @@
 
 body {
     font-family: 'Muller', sans-serif;
-}
-.mediaViewInfo {
-        --web-view-name: iPhone 13, 12 Pro Max – 1;
-        --web-view-id: card;
-        --web-scale-on-resize: true;
-        --web-enable-deep-linking: true;
-    }
-    :root {
-        --web-view-ids: card;
-    }
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        border: none;
-    }
-    #card {
-        position: absolute;
-        width: 428px;
-        height: 926px;
-        background-color: rgba(20,19,24,1);
-        overflow: hidden;
-        --web-view-name: iPhone 13, 12 Pro Max – 1;
-        --web-view-id: card;
-        --web-scale-on-resize: true;
-        --web-enable-deep-linking: true;
-    }
-    #_1 {
-        position: absolute;
-        width: 215px;
-        height: 215px;
-        left: 160px;
-        top: 133px;
-        overflow: visible;
-    }
-    #Amir_Pirnazarov {
-        left: 48px;
-        top: 373px;
-        position: absolute;
-        overflow: visible;
-        width: 225px;
-        white-space: nowrap;
-        text-align: left;
-        font-family: Muller;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 30px;
-        color: rgba(255,255,255,1);
-    }
-    #Head_of_Digital_DMA_Yagonchi_C {
-        left: 51px;
-        top: 416px;
-        position: absolute;
-        overflow: visible;
-        width: 298px;
-        white-space: nowrap;
-        text-align: left;
-        font-family: Muller;
-        font-style: normal;
-        font-weight: lighter;
-        font-size: 20px;
-        color: rgba(222,219,219,1);
-    }
-    #ID992_92_009_09_09 {
-        left: 92px;
-        top: 542px;
-        position: absolute;
-        overflow: visible;
-        width: 185px;
-        white-space: nowrap;
-        text-align: left;
-        font-family: Muller;
-        font-style: normal;
-        font-weight: lighter;
-        font-size: 20px;
-        color: rgba(222,219,219,1);
-    }
-    #ID992_92_009_09_09 a {
-    color: rgba(222, 219, 219, 1); /* Цвет ссылки */
-    text-decoration: none; /* Убирает подчеркивание ссылки, если нужно */
-    }
-
-    #ID992_92_009_09_09 a:visited {
-        color: rgba(222, 219, 219, 1); /* Цвет посещенной ссылки */
-    }
-
-    #ID992_92_009_09_09 a:hover {
-        color: rgba(255, 255, 255, 1); /* Цвет при наведении на ссылку */
-    }
-    #pirnazarova988gmailcom {
-        left: 92px;
-        top: 596px;
-        position: absolute;
-        overflow: visible;
-        width: 259px;
-        white-space: nowrap;
-        text-align: left;
-        font-family: Muller;
-        font-style: normal;
-        font-weight: lighter;
-        font-size: 20px;
-        color: rgba(222,219,219,1);
-    }
-    #Tajikistan_Khujand_735700 {
-        left: 92px;
-        top: 650px;
-        position: absolute;
-        overflow: visible;
-        width: 252px;
-        white-space: nowrap;
-        text-align: left;
-        font-family: Muller;
-        font-style: normal;
-        font-weight: lighter;
-        font-size: 20px;
-        color: rgba(222,219,219,1);
-    }
-    #_1_m {
-        fill: transparent;
-        stroke: rgba(238,29,36,1);
-        stroke-width: 1px;
-        stroke-linejoin: miter;
-        stroke-linecap: butt;
-        stroke-miterlimit: 4;
-        shape-rendering: auto;
-    }
-    ._1_m {
-        overflow: visible;
-        position: absolute;
-        width: 109.5px;
-        height: 1px;
-        left: 51px;
-        top: 478.5px;
-        transform: matrix(1,0,0,1,0,0);
-    }
-    #LOGO_YAGONCHI_1024x512 {
-        position: absolute;
-        width: 202px;
-        height: 63px;
-        left: 28px;
-        top: 58px;
-        overflow: visible;
-    }
-    #_1_o {
-        fill: rgba(238,29,36,1);
-    }
-    ._1_o {
-        position: absolute;
-        overflow: visible;
-        width: 140px;
-        height: 58px;
-        left: 254px;
-        top: 738px;
-    }
-    #_4 {
-        fill: rgba(238,29,36,1);
-    }
-    ._4 {
-        position: absolute;
-        overflow: visible;
-        width: 119px;
-        height: 58px;
-        left: 41px;
-        top: 738px;
-    }
-
-    #Path {
-        fill: rgba(255,255,255,0);
-    }
-    .Path {
-        position: absolute;
-        overflow: visible;
-        width: 37px;
-        height: 37px;
-        left: 0px;
-        top: 0px;
-    }
-    #plus-square-Light_1_ {
-        fill: rgba(255,255,255,1);
-    }
-    .plus-square-Light_1_ {
-        overflow: visible;
-        position: absolute;
-        width: 29.292px;
-        height: 29.292px;
-        left: 12.854px;
-        transform: matrix(1,0,0,1,0,0);
-    }
-    #___ {
-        left: 309px;
-        top: 753px;
-        position: absolute;
-        overflow: visible;
-        width: 68px;
-        white-space: nowrap;
-        text-align: left;
-        font-family: Muller;
-        font-style: normal;
-        font-weight: lighter;
-        font-size: 13px;
-        color: rgba(255,255,255,1);
-    }
-    #Telegram {
-        text-decoration: none;
-        padding: 20px 32px;
-        width: 119px;
-        height: 58px;
-        left: 79px;
-        top: 738px;
-        position: absolute;
-        overflow: visible;
-        background-color: rgba(238, 29, 36, 1);
-        white-space: nowrap;
-        text-align: left;
-        font-family: Muller;
-        font-style: normal;
-        font-weight: lighter;
-        font-size: 17px;
-        color: rgba(255,255,255,1);
-    }
-    #_2 {
-        fill: rgba(238,29,36,1);
-    }
-    ._2 {
-        position: absolute;
-        overflow: visible;
-        width: 38px;
-        height: 38px;
-        left: 41px;
-        top: 531px;
-    }
-    #_3 {
-        fill: rgba(238,29,36,1);
-    }
-    ._3 {
-        position: absolute;
-        overflow: visible;
-        width: 38px;
-        height: 38px;
-        left: 41px;
-        top: 586px;
-    }
-    #_5 {
-        fill: rgba(238,29,36,1);
-    }
-    ._5 {
-        position: absolute;
-        overflow: visible;
-        width: 38px;
-        height: 38px;
-        left: 41px;
-        top: 642px;
-    }
-    #phone-Light {
-        position: absolute;
-        width: 24px;
-        height: 24px;
-        left: 48px;
-        top: 538px;
-        overflow: visible;
-    }
-    #Path_z {
-        fill: rgba(255,255,255,0);
-    }
-    .Path_z {
-        position: absolute;
-        overflow: visible;
-        width: 24px;
-        height: 24px;
-        left: 0px;
-        top: 0px;
-    }
-    #phone-Light_1_ {
-        fill: rgba(255,255,255,1);
-    }
-    .phone-Light_1_ {
-        overflow: visible;
-        position: absolute;
-        width: 18.999px;
-        height: 18.999px;
-        left: 2.5px;
-        top: 2.499px;
-        transform: matrix(1,0,0,1,0,0);
-    }
-    #envelope-Light {
-        position: absolute;
-        width: 24px;
-        height: 24px;
-        left: 48px;
-        top: 594px;
-        overflow: visible;
-    }
-    #Path_ {
-        fill: rgba(255,255,255,0);
-    }
-    .Path_ {
-        position: absolute;
-        overflow: visible;
-        width: 24px;
-        height: 24px;
-        left: 0px;
-        top: 0px;
-    }
-    #envelope-Light_1_ {
-        fill: rgba(255,255,255,1);
-    }
-    .envelope-Light_1_ {
-        overflow: visible;
-        position: absolute;
-        width: 19px;
-        height: 15px;
-        left: 2.5px;
-        top: 4.5px;
-        transform: matrix(1,0,0,1,0,0);
-    }
-    #map-marker-Light {
-        position: absolute;
-        width: 24px;
-        height: 24px;
-        left: 48px;
-        top: 649px;
-        overflow: visible;
-    }
-    #Path_ba {
-        fill: rgba(255,255,255,0);
-    }
-    .Path_ba {
-        position: absolute;
-        overflow: visible;
-        width: 24px;
-        height: 24px;
-        left: 0px;
-        top: 0px;
-    }
-    #map-marker-Light_1_ {
-        fill: rgba(255,255,255,1);
-    }
-    .map-marker-Light_1_ {
-        overflow: visible;
-        position: absolute;
-        width: 15px;
-        height: 19px;
-        left: 4.519px;
-        top: 2.531px;
-        transform: matrix(1,0,0,1,0,0);
-    }
-    #send-Light {
-        position: absolute;
-        width: 24px;
-        height: 24px;
-        left: 48px;
-        top: 755px;
-        overflow: visible;
-    }
-    #Path_bb {
-        fill: rgba(255,255,255,0);
-    }
-    .Path_bb {
-        position: absolute;
-        overflow: visible;
-        width: 24px;
-        height: 24px;
-        left: 0px;
-        top: 0px;
-    }
-    #send-Light_1_ {
-        fill: rgba(255,255,255,1);
-    }
-    .send-Light_1_ {
-        overflow: visible;
-        position: absolute;
-        width: 19px;
-        height: 19px;
-        left: 8.5px;
-        top: 18.5px;
-        transform: matrix(1,0,0,1,0,0);
-    }
-    #ID1 {
-        position: absolute;
-        width: 54.934px;
-        height: 54.934px;
-        left: 328.533px;
-        top: 39.533px;
-        overflow: visible;
-    }
-    #ID1_bb {
-        position: absolute;
-        width: 36.623px;
-        height: 36.623px;
-        left: 32.689px;
-        top: 316.877px;
-        overflow: visible;
-    }
-    #bnb{
-        width: 140px;
-        height: 58px;
-        background-color: rgba(238, 29, 36, 1);
-        position: absolute;
-        overflow: visible;
-        left: 254px;
-        top: 738px;
-        overflow: visible;
-        white-space: nowrap;
-        
-        font-family: Muller;
-        font-style: normal;
-        font-weight: lighter;
-        font-size: 13px;
-        color: rgba(255, 255, 255, 1);
-    }
-    #bnb span{
-        margin-right: -30px;
-        margin-left: 24px;
-    }
-
-    
-
-/*body {
-    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f4f4f4;
 }
 
-.card {
-    padding: 20px;
-    border-radius: 10px;
-    background-color: rgba(20,19,24,1);
-    color: #fff;
-    width: 90%;
-    max-width: 400px;
-    text-align: center;
+#card {
     position: relative;
-    height: 100%;
+    width: 100%;
+    max-width: 428px;
+    min-height: 100vh;
+    background-color: rgba(20,19,24,1);
+    overflow: hidden;
 }
 
-.profile-photo {
-    width: 100%;
-    max-width: 150px;
-    height: auto;
-    margin: 20px auto;
+/* Адаптивные стили для изображений */
+#_1 {
     position: absolute;
-    left: 160px;
+    width: 50%;
+    max-width: 215px;
+    height: auto;
+    aspect-ratio: 1;
+    left: 50%;
+    transform: translateX(-50%);
     top: 133px;
 }
 
-.logo {
+#LOGO_YAGONCHI_1024x512 {
     position: absolute;
-    width: 100%;
-    max-width: 150px;
+    width: 47%;
+    max-width: 202px;
     height: auto;
-    margin: 10px auto;
     left: 28px;
     top: 58px;
 }
 
-.object {
-    margin: 10px auto;
+/* Адаптивные стили для текста */
+#Amir_Pirnazarov {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 373px;
     position: absolute;
-    width: 54.934px;
-    height: 54.934px;
-    left: 328.533px;
-    top: 39.533px;
-    overflow: visible;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    font-size: calc(20px + 1vw);
+    color: rgba(255,255,255,1);
 }
 
-.about{
-   top: 220px;
+#Head_of_Digital_DMA_Yagonchi_C {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 416px;
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    font-size: calc(14px + 0.5vw);
+    color: rgba(222,219,219,1);
 }
 
-.name {
-    font-size: 24px;
-    margin-top: 10px;
-}
-
-.work {
-    font-size: 16px;
-    margin-top: 5px;
-}
-
-.separator {
-    height: 1px;
-    background-color: red;
+/* Контактная информация */
+#ID992_92_009_09_09,
+#pirnazarova988gmailcom,
+#Tajikistan_Khujand_735700 {
+    position: absolute;
     width: 80%;
-    margin: 20px auto;
+    left: 92px;
+    font-size: calc(12px + 0.5vw);
+    color: rgba(222,219,219,1);
 }
 
-.phone, .email, .address {
-    font-size: 14px;
-    margin-top: 5px;
-}
+#ID992_92_009_09_09 { top: 542px; }
+#pirnazarova988gmailcom { top: 596px; }
+#Tajikistan_Khujand_735700 { top: 650px; }
 
-button {
-    margin: 10px;
-    padding: 10px 20px;
-    border: none;
+/* Кнопки */
+#Telegram,
+#bnb {
+    width: calc(100px + 2vw);
+    height: 58px;
+    font-size: calc(10px + 0.3vw);
     border-radius: 5px;
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
-    width: 80%;
-    max-width: 200px;
 }
 
-button:hover {
-    background-color: #0056b3;
+#Telegram {
+    left: 41px;
+    top: 738px;
 }
 
-@media (min-width: 768px) {
-    .card {
-        width: 70%;
+#bnb {
+    left: auto;
+    right: 41px;
+    top: 738px;
+}
+
+/* Медиа-запросы для мобильных устройств */
+@media screen and (max-width: 428px) {
+    #card {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    #_1 {
+        top: 100px;
+    }
+
+    #Amir_Pirnazarov {
+        top: 320px;
+    }
+
+    #Head_of_Digital_DMA_Yagonchi_C {
+        top: 370px;
+    }
+
+    #ID992_92_009_09_09 { top: 480px; }
+    #pirnazarova988gmailcom { top: 530px; }
+    #Tajikistan_Khujand_735700 { top: 580px; }
+
+    #Telegram,
+    #bnb {
+        top: 650px;
     }
 }
 
-@media (min-width: 1024px) {
-    .card {
-        width: 50%;
+@media screen and (max-width: 360px) {
+    #_1 {
+        width: 40%;
+        top: 80px;
+    }
+
+    #LOGO_YAGONCHI_1024x512 {
+        width: 40%;
+        left: 20px;
+    }
+
+    #Amir_Pirnazarov {
+        font-size: 24px;
+        top: 280px;
+    }
+
+    #Head_of_Digital_DMA_Yagonchi_C {
+        font-size: 16px;
+        top: 330px;
+    }
+
+    #ID992_92_009_09_09,
+    #pirnazarova988gmailcom,
+    #Tajikistan_Khujand_735700 {
+        font-size: 14px;
+        left: 70px;
+    }
+
+    #Telegram,
+    #bnb {
+        width: 90px;
+        height: 50px;
+        font-size: 12px;
     }
 }
-*/
