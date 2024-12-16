@@ -74,7 +74,7 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.8rem;
 }
 /* Buttons */
 .actions {
@@ -91,7 +91,7 @@ body {
     .profile-photo {
         width: 150px;
         height: 150px;
-        top: 60px;
+        top: 55px;
     }
 
     .logo {

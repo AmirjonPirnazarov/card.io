@@ -75,9 +75,6 @@
     font-size: 17px;
 }
 
-.btn-primary:hover {
-    background-color: #524ccf;
-}
 
 .btn-telegram {
     background-color: rgba(238, 29, 36, 1);
@@ -89,8 +86,14 @@
     font-size: 17px;
 }
 
-.btn-telegram:hover {
-    background-color: #006699;
+.btn-telegram:hover,
+.btn-telegram:active,
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: rgba(238, 29, 36, 1); /* Цвет остается неизменным */
+    color: white;
+    transform: none; /* Отключаем увеличение при наведении */
+    box-shadow: none; /* Убираем тени */
 }
 
 /* Responsive Design */
@@ -106,9 +109,6 @@
     .contact-item {
         font-size: 16px;
     }
-
-    
-
     .btn {
         display: flex;
         align-items: center;
