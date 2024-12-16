@@ -1,0 +1,90 @@
+body {
+    font-family: 'Muller', Arial, sans-serif;
+    background-color: #141318;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    position: relative;
+    max-width: 428px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1a1a1d;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    position: relative;
+    padding-top: 40px;
+    margin-bottom: 200px;
+}
+
+.logo {
+    width: 202px;
+    height: auto;
+}
+
+.profile-photo {
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 428px) {
+    .card {
+        padding: 15px;
+    }
+
+    .profile-photo {
+        width: 150px;
+        height: 150px;
+        top: 60px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .header {
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card {
+        padding: 10px;
+    }
+
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+        top: 50px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .header {
+        margin-bottom: 120px;
+    }
+}
