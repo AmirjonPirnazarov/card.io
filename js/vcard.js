@@ -18,5 +18,4 @@ END:VCARD`;
     document.body.removeChild(link);
     window.URL.revokeObjectURL(url);
     
-    alert('Скачивание визитки началось!');
 }

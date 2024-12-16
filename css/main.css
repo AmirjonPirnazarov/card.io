@@ -1,6 +1,6 @@
 body {
     font-family: 'Muller', Arial, sans-serif;
-    background-color: #141318;
+    background-color: rgba(20,19,24,1);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -13,6 +13,7 @@ body {
     max-width: 428px;
     width: 100%;
     min-height: 100vh;
+    /* background-color: rgba(20,19,24,1) */
     background-color: #1a1a1d;
     padding: 20px;
     display: flex;
@@ -28,6 +29,7 @@ body {
 .logo {
     width: 202px;
     height: auto;
+    padding: 0 20px;
 }
 
 .profile-photo {
@@ -38,7 +40,7 @@ body {
     position: absolute;
     top: 75px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-25%);
 }
 
 .content {
@@ -47,7 +49,9 @@ body {
     flex-direction: column;
     gap: 2rem;
 }
-
+.actions{
+    padding: 20px;
+}
 /* Responsive Design */
 @media screen and (max-width: 428px) {
     .card {
