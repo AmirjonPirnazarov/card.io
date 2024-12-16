@@ -1,5 +1,19 @@
+@font-face {
+    font-family: 'Muller';
+    src: url('../font/MullerLight.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../font/MullerBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
-    font-family: 'Muller', Arial, sans-serif;
+    font-family: 'Muller', sans-serif;
     background-color: rgba(20,19,24,1);
     color: #fff;
     display: flex;
@@ -13,8 +27,7 @@ body {
     max-width: 428px;
     width: 100%;
     min-height: 100vh;
-    /* background-color: rgba(20,19,24,1) */
-    background-color: #1a1a1d;
+    background-color: rgba(20,19,24,1)
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -49,8 +62,11 @@ body {
     flex-direction: column;
     gap: 2rem;
 }
-.actions{
-    padding: 20px;
+/* Buttons */
+.actions {
+    display: flex; /* Располагаем кнопки по горизонтали */
+    gap: 1rem; /* Отступ между кнопками */
+    justify-content: center; /* Центрирование кнопок */
 }
 /* Responsive Design */
 @media screen and (max-width: 428px) {
