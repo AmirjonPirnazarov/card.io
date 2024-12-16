@@ -1,7 +1,7 @@
 /* Profile Info */
 .profile-info {
     text-align: left;
-    padding: 0 20px;
+    padding: 0 25px;
 }
 
 .name {
@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    padding: 0 20px;
+    padding: 0 25px;
 }
 
 .contact-item {
@@ -108,10 +108,7 @@
         font-size: 16px;
     }
 
-    .icon {
-        width: 20px;
-        height: 20px;
-    }
+    
 
     .btn {
         font-size: 15px;
@@ -132,10 +129,7 @@
         font-size: 14px;
     }
 
-    .icon {
-        width: 18px;
-        height: 18px;
-    }
+    
 
     .btn {
         font-size: 14px;
